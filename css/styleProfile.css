@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "edo";
+    src: url(edo.ttf) format("truetype");
+}
+@font-face {
+    font-family: "bebasneuebold";
+    src: url(BEBASNEUE BOLD.ttf) format("truetype");
+}
+
+body{
+	color: white;
+    font-family: 'bebasneuebold';
+    font-size: 14px;
+}
+#tabla-perfil{
+	background-color: black;
+	opacity: 0.7;
+}
+#perfil {
+	float: left;
+	width: 100%;
+	background-image: url('../images/fondoPerfil.png');
+	background-size: 800px 100%;
+    background-repeat: repeat;
+}
+#perfil img{
+	width: 150px;
+	float: left;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+#perfil table{
+	float: left;
+	width: 90%;
+}
+#nombresPerfil{
+	float: left;
+	width: 80%;
+}
+#nombresPerfil li{
+	display: block;
+	padding-bottom: 10px;
+}
+#nombresActualiza{
+	float: right;
+}
+#seccionPerfil{
+	float: right;
+	width: 80%;
+}
+#arbol{
+	float: left;
+	width: 68%;
+	padding: 10px,10px,10px,10px;
+}
+#mensajes{
+	padding-left: 20px;
+	padding-right: 20px;
+	float: right;
+	width: 25%;
+	height: 1500px;
+	background-color: #000000;
+}
+input ,select{
+	height: 50px;
+}
+h1{
+	font-size: 27px;
+	font-family: 'edo';
+	background: #000000;
+	padding-bottom: 15px;
+}
+h2{
+	color: white;
+	font-size: 18px;
+	background: #000000;
+}
+p{
+	color: black;
+}
+#nombresPerfil table {
+	width: 100%;
+}
+#empresario:hover,#emprendedor:hover,#asenso:hover,#privilegio:hover{
+	width: 30%;
+}
